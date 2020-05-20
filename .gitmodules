@@ -1,3 +1,7 @@
 [submodule "themes/hugo-moss-theme"]
 	path = themes/hugo-moss-theme
 	url = https://github.com/SmbCantos/hugo-moss-theme.git
+[submodule "public"]
+	path = public
+	url = https://github.com/SmbCantos/smbcantos.github.io.git
+	branch = master
