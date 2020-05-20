@@ -1,0 +1,3 @@
+[submodule "themes/hugo-moss-theme"]
+	path = themes/hugo-moss-theme
+	url = https://github.com/SmbCantos/hugo-moss-theme.git

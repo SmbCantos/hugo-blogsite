@@ -1,7 +1,7 @@
 baseurl = "http://www.example.com"
 title = "ShellaCantos"
 
-theme = "hugo-coder"
+theme = "hugo-moss-theme"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -17,9 +17,9 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Shella Cantos"
-    description = "John Doe's personal website"
+    description = "Shella's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    info = "Server Side Magician"
     footercontent = "Never a dead end."
 
     dateformat = "January 2, 2006"
@@ -28,7 +28,6 @@ disqusShortname = "yourdiscussshortname"
     hideCredits = true
     hideCopyright = false
     
-
     # Git Commit in Footer, uncomment the line below to enable it.
     #commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
