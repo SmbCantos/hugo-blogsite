@@ -1,5 +1,5 @@
 baseurl = "https://smbcantos.github.io/"
-title = "ShellaCantos"
+#title = "ShellaCantos"
 
 theme = "hugo-moss-theme"
 
@@ -26,7 +26,7 @@ disqusShortname = "yourdiscussshortname"
 
     hideFooter = false
     hideCredits = true
-    hideCopyright = false
+    hideCopyright = true
     
     # Git Commit in Footer, uncomment the line below to enable it.
     #commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -64,6 +64,11 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-linkedin fa-2x"
     weight = 2
     url = "https://www.linkedin.com/in/shella-cantos-3bb124139/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium fa-2x"
+    weight = 2
+    url = "https://medium.com/@smbcantos"    
 #[[params.social]]
 #    name = "RSS"
 #    icon = "fas fa-rss"
@@ -71,23 +76,23 @@ disqusShortname = "yourdiscussshortname"
 #    url = "https://myhugosite.com/index.xml"
 #    rel = "alternate"
 #    type = "application/rss+xml"
+#
+#[[menu.main]]
+#    name = "About"
+#    weight = 1
+#    url = "about/"
 
-[[menu.main]]
-    name = "About"
-    weight = 1
-    url = "about/"
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 2
+#    url = "posts/"
 
-[[menu.main]]
-    name = "Blog"
-    weight = 2
-    url = "posts/"
+#[[menu.main]]
+#    name = "Categories"
+#    weight = 3
+#    url = "categories/"
 
-[[menu.main]]
-    name = "Categories"
-    weight = 3
-    url = "categories/"
-
-[[menu.main]]
-    name = "Contact me"
-    weight = 4
-    url = "contact/"
+#[[menu.main]]
+#    name = "Contact me"
+#    weight = 4
+#    url = "contact/"
